@@ -1,0 +1,30 @@
+#include<stdio.h>
+using namespace std;
+int main()
+       {           
+                 int n;
+	int a[n],pos=4,val=56,i; 
+	 printf("enter size");
+	 scanf("%d",&n);
+	printf("enter element");
+	
+	for( i=0;i<n;i++)
+	{
+		
+		cin>>a[i];
+	
+	}   i=n-1;
+	  while(i>=4)
+	  {
+                    a[i+1]=a[i];
+	   i--;	  	
+	  }
+	  a[pos]=val;
+	   n=n+1;
+                  printf("insertion");
+                 for(i=0;i<n-1;i++)
+                 {
+                 	printf("%d",a[i]);
+	}
+	
+}
