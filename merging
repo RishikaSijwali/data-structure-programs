@@ -1,0 +1,34 @@
+#include<stdio.h>
+int main()
+
+{
+	int n1,n2,n;
+	printf("size");
+	scanf("%d %d",&n1,&n2);
+	int merge[n],a1[n1],a2[n2],i,k;
+	printf("elements");
+	for(i=0;i<n1;i++)
+	{
+		scanf("%d",&a1[n1]);
+	}
+	printf("elements");
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&a2[i]);
+	}
+	for(i=0;i<n1;i++)
+	{
+		merge[k]=a1[i];
+		
+	}
+	printf("merge");
+	for(i=0,k=n1;k<n;i++,k++)
+	{
+		merge[k]=a2[i];
+		printf("new");
+		for(i=0;i<n;i++)
+		{
+			printf("%d",merge[i]);
+		}
+	}
+}
