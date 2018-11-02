@@ -1,0 +1,33 @@
+#include<strdio.h>
+int main ()
+{
+	int co,n=5,top=0,a,i=0;
+	int a[n];
+	while(1)
+	{
+		printf("push,pop");
+		scanf("%d",&co);
+		switch(co)
+		{
+			case 1:   if(top==n-1)
+			{
+				printf("overflow");
+				break;
+			}
+			else if(top== -1)
+			{
+				top=0;
+			}
+			else{
+				top=top-1;
+			}
+			     break;
+			   case 2:
+			   for(int k=top;k>=0;k++)
+			   {
+			   	printf("%d",a[k]);
+			     }  
+			     exit(0);
+		}
+	}
+}
