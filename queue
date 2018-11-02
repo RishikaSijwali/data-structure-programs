@@ -1,0 +1,42 @@
+#include<stdio.h>
+int main()
+{
+	int ch,n=4,f=0,r=0,i=0,m,a;
+	int a[n];
+	while(1)
+	{
+		printf("en and de");
+		sacnf("%d",&ch);
+		switch()
+		{
+			case 1:if(r==n)
+			printf("overflow");
+			break;
+			printf("elements");
+			scanf("%d",&a[i]);
+			i++;
+			r++;
+			for(int c=0; ;c++)
+			{
+				a=0;
+			                  printf("enter");
+				scanf("%d",&a);
+				if(z!=2)
+				{
+					printf("no");
+					scanf("%d",&a[i]);
+					i++;
+					r++;
+					
+				}
+			else
+			break;
+			case 2: if(r==-0)
+			{
+				printf("underflow");
+				}	
+
+			}
+		}
+	}
+}
